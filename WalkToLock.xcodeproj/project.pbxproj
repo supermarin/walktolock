@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0754EC08D8D8460EB409AFAD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109C84489E2D495892FC250A /* libPods.a */; };
+		6454CAD2192677AB00E546E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6454CAD1192677AB00E546E7 /* Cocoa.framework */; };
+		6454CADC192677AB00E546E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6454CADA192677AB00E546E7 /* InfoPlist.strings */; };
+		6454CADE192677AB00E546E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6454CADD192677AB00E546E7 /* main.m */; };
+		6454CAE2192677AB00E546E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6454CAE0192677AB00E546E7 /* Credits.rtf */; };
+		6454CAE5192677AB00E546E7 /* SKWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6454CAE4192677AB00E546E7 /* SKWAppDelegate.m */; };
+		6454CAE8192677AB00E546E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6454CAE6192677AB00E546E7 /* MainMenu.xib */; };
+		6454CAEA192677AB00E546E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6454CAE9192677AB00E546E7 /* Images.xcassets */; };
+		6454CAF1192677AB00E546E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6454CAF0192677AB00E546E7 /* XCTest.framework */; };
+		6454CAF2192677AB00E546E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6454CAD1192677AB00E546E7 /* Cocoa.framework */; };
+		6454CAFA192677AB00E546E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6454CAF8192677AB00E546E7 /* InfoPlist.strings */; };
+		6454CAFC192677AB00E546E7 /* WalkToLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6454CAFB192677AB00E546E7 /* WalkToLockTests.m */; };
+		6454CB0B1926794000E546E7 /* HGBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6454CB081926794000E546E7 /* HGBeacon.m */; };
+		6454CB0C1926794000E546E7 /* HGBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6454CB0A1926794000E546E7 /* HGBeaconScanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6454CAF3192677AB00E546E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6454CAC6192677AB00E546E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6454CACD192677AB00E546E7;
+			remoteInfo = WalkToLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109C84489E2D495892FC250A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6454CACE192677AB00E546E7 /* WalkToLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkToLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6454CAD1192677AB00E546E7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6454CAD4192677AB00E546E7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6454CAD5192677AB00E546E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6454CAD6192677AB00E546E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6454CAD9192677AB00E546E7 /* WalkToLock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkToLock-Info.plist"; sourceTree = "<group>"; };
+		6454CADB192677AB00E546E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6454CADD192677AB00E546E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6454CADF192677AB00E546E7 /* WalkToLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WalkToLock-Prefix.pch"; sourceTree = "<group>"; };
+		6454CAE1192677AB00E546E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6454CAE3192677AB00E546E7 /* SKWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKWAppDelegate.h; sourceTree = "<group>"; };
+		6454CAE4192677AB00E546E7 /* SKWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWAppDelegate.m; sourceTree = "<group>"; };
+		6454CAE7192677AB00E546E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6454CAE9192677AB00E546E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6454CAEF192677AB00E546E7 /* WalkToLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkToLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6454CAF0192677AB00E546E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6454CAF7192677AB00E546E7 /* WalkToLockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkToLockTests-Info.plist"; sourceTree = "<group>"; };
+		6454CAF9192677AB00E546E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6454CAFB192677AB00E546E7 /* WalkToLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkToLockTests.m; sourceTree = "<group>"; };
+		6454CB071926794000E546E7 /* HGBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGBeacon.h; sourceTree = "<group>"; };
+		6454CB081926794000E546E7 /* HGBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGBeacon.m; sourceTree = "<group>"; };
+		6454CB091926794000E546E7 /* HGBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGBeaconScanner.h; sourceTree = "<group>"; };
+		6454CB0A1926794000E546E7 /* HGBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGBeaconScanner.m; sourceTree = "<group>"; };
+		CEA5D8170F92465285DBC593 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6454CACB192677AB00E546E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CAD2192677AB00E546E7 /* Cocoa.framework in Frameworks */,
+				0754EC08D8D8460EB409AFAD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6454CAEC192677AB00E546E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CAF2192677AB00E546E7 /* Cocoa.framework in Frameworks */,
+				6454CAF1192677AB00E546E7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6454CAC5192677AB00E546E7 = {
+			isa = PBXGroup;
+			children = (
+				6454CAD7192677AB00E546E7 /* WalkToLock */,
+				6454CAF5192677AB00E546E7 /* WalkToLockTests */,
+				6454CAD0192677AB00E546E7 /* Frameworks */,
+				6454CACF192677AB00E546E7 /* Products */,
+				CEA5D8170F92465285DBC593 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6454CACF192677AB00E546E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6454CACE192677AB00E546E7 /* WalkToLock.app */,
+				6454CAEF192677AB00E546E7 /* WalkToLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6454CAD0192677AB00E546E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6454CAD1192677AB00E546E7 /* Cocoa.framework */,
+				6454CAF0192677AB00E546E7 /* XCTest.framework */,
+				6454CAD3192677AB00E546E7 /* Other Frameworks */,
+				109C84489E2D495892FC250A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6454CAD3192677AB00E546E7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6454CAD4192677AB00E546E7 /* AppKit.framework */,
+				6454CAD5192677AB00E546E7 /* CoreData.framework */,
+				6454CAD6192677AB00E546E7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6454CAD7192677AB00E546E7 /* WalkToLock */ = {
+			isa = PBXGroup;
+			children = (
+				6454CB051926794000E546E7 /* vendor */,
+				6454CAE3192677AB00E546E7 /* SKWAppDelegate.h */,
+				6454CAE4192677AB00E546E7 /* SKWAppDelegate.m */,
+				6454CAE6192677AB00E546E7 /* MainMenu.xib */,
+				6454CAE9192677AB00E546E7 /* Images.xcassets */,
+				6454CAD8192677AB00E546E7 /* Supporting Files */,
+			);
+			path = WalkToLock;
+			sourceTree = "<group>";
+		};
+		6454CAD8192677AB00E546E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6454CAD9192677AB00E546E7 /* WalkToLock-Info.plist */,
+				6454CADA192677AB00E546E7 /* InfoPlist.strings */,
+				6454CADD192677AB00E546E7 /* main.m */,
+				6454CADF192677AB00E546E7 /* WalkToLock-Prefix.pch */,
+				6454CAE0192677AB00E546E7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6454CAF5192677AB00E546E7 /* WalkToLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				6454CAFB192677AB00E546E7 /* WalkToLockTests.m */,
+				6454CAF6192677AB00E546E7 /* Supporting Files */,
+			);
+			path = WalkToLockTests;
+			sourceTree = "<group>";
+		};
+		6454CAF6192677AB00E546E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6454CAF7192677AB00E546E7 /* WalkToLockTests-Info.plist */,
+				6454CAF8192677AB00E546E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6454CB051926794000E546E7 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6454CB061926794000E546E7 /* BeaconScanner */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		6454CB061926794000E546E7 /* BeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6454CB071926794000E546E7 /* HGBeacon.h */,
+				6454CB081926794000E546E7 /* HGBeacon.m */,
+				6454CB091926794000E546E7 /* HGBeaconScanner.h */,
+				6454CB0A1926794000E546E7 /* HGBeaconScanner.m */,
+			);
+			path = BeaconScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6454CACD192677AB00E546E7 /* WalkToLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6454CAFF192677AB00E546E7 /* Build configuration list for PBXNativeTarget "WalkToLock" */;
+			buildPhases = (
+				4BBEF01B4E0B405DA5FD1E49 /* Check Pods Manifest.lock */,
+				6454CACA192677AB00E546E7 /* Sources */,
+				6454CACB192677AB00E546E7 /* Frameworks */,
+				6454CACC192677AB00E546E7 /* Resources */,
+				93411BB4E9784FD1B43802ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkToLock;
+			productName = WalkToLock;
+			productReference = 6454CACE192677AB00E546E7 /* WalkToLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6454CAEE192677AB00E546E7 /* WalkToLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6454CB02192677AB00E546E7 /* Build configuration list for PBXNativeTarget "WalkToLockTests" */;
+			buildPhases = (
+				6454CAEB192677AB00E546E7 /* Sources */,
+				6454CAEC192677AB00E546E7 /* Frameworks */,
+				6454CAED192677AB00E546E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6454CAF4192677AB00E546E7 /* PBXTargetDependency */,
+			);
+			name = WalkToLockTests;
+			productName = WalkToLockTests;
+			productReference = 6454CAEF192677AB00E546E7 /* WalkToLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6454CAC6192677AB00E546E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SKW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Skywalkers;
+				TargetAttributes = {
+					6454CAEE192677AB00E546E7 = {
+						TestTargetID = 6454CACD192677AB00E546E7;
+					};
+				};
+			};
+			buildConfigurationList = 6454CAC9192677AB00E546E7 /* Build configuration list for PBXProject "WalkToLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6454CAC5192677AB00E546E7;
+			productRefGroup = 6454CACF192677AB00E546E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6454CACD192677AB00E546E7 /* WalkToLock */,
+				6454CAEE192677AB00E546E7 /* WalkToLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6454CACC192677AB00E546E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CADC192677AB00E546E7 /* InfoPlist.strings in Resources */,
+				6454CAEA192677AB00E546E7 /* Images.xcassets in Resources */,
+				6454CAE2192677AB00E546E7 /* Credits.rtf in Resources */,
+				6454CAE8192677AB00E546E7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6454CAED192677AB00E546E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CAFA192677AB00E546E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BBEF01B4E0B405DA5FD1E49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93411BB4E9784FD1B43802ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6454CACA192677AB00E546E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CB0B1926794000E546E7 /* HGBeacon.m in Sources */,
+				6454CB0C1926794000E546E7 /* HGBeaconScanner.m in Sources */,
+				6454CAE5192677AB00E546E7 /* SKWAppDelegate.m in Sources */,
+				6454CADE192677AB00E546E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6454CAEB192677AB00E546E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6454CAFC192677AB00E546E7 /* WalkToLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6454CAF4192677AB00E546E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6454CACD192677AB00E546E7 /* WalkToLock */;
+			targetProxy = 6454CAF3192677AB00E546E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6454CADA192677AB00E546E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6454CADB192677AB00E546E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6454CAE0192677AB00E546E7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6454CAE1192677AB00E546E7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6454CAE6192677AB00E546E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6454CAE7192677AB00E546E7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6454CAF8192677AB00E546E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6454CAF9192677AB00E546E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6454CAFD192677AB00E546E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6454CAFE192677AB00E546E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6454CB00192677AB00E546E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA5D8170F92465285DBC593 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalkToLock/WalkToLock-Prefix.pch";
+				INFOPLIST_FILE = "WalkToLock/WalkToLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6454CB01192677AB00E546E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA5D8170F92465285DBC593 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalkToLock/WalkToLock-Prefix.pch";
+				INFOPLIST_FILE = "WalkToLock/WalkToLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6454CB03192677AB00E546E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WalkToLock.app/Contents/MacOS/WalkToLock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalkToLock/WalkToLock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WalkToLockTests/WalkToLockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6454CB04192677AB00E546E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WalkToLock.app/Contents/MacOS/WalkToLock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WalkToLock/WalkToLock-Prefix.pch";
+				INFOPLIST_FILE = "WalkToLockTests/WalkToLockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6454CAC9192677AB00E546E7 /* Build configuration list for PBXProject "WalkToLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6454CAFD192677AB00E546E7 /* Debug */,
+				6454CAFE192677AB00E546E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6454CAFF192677AB00E546E7 /* Build configuration list for PBXNativeTarget "WalkToLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6454CB00192677AB00E546E7 /* Debug */,
+				6454CB01192677AB00E546E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6454CB02192677AB00E546E7 /* Build configuration list for PBXNativeTarget "WalkToLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6454CB03192677AB00E546E7 /* Debug */,
+				6454CB04192677AB00E546E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6454CAC6192677AB00E546E7 /* Project object */;
+}

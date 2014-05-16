@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0968BE2D-6D3F-4320-AAD1-AA0529877377</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WalkToLock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AB11AFDF-67DB-4243-90A6-676E1E0D2AE0</key>
+		<string>ssh://github.com/supermarin/walktolock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WalkToLock.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AB11AFDF-67DB-4243-90A6-676E1E0D2AE0</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/supermarin/walktolock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AB11AFDF-67DB-4243-90A6-676E1E0D2AE0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB11AFDF-67DB-4243-90A6-676E1E0D2AE0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>walktolock</string>
+		</dict>
+	</array>
+</dict>
+</plist>
